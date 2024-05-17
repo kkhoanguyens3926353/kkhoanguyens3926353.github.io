@@ -1,0 +1,50 @@
+
+*{
+    text-decoration: none;
+
+}
+body{
+    background-color: rgb(217, 198, 216);
+}
+
+.navbar{
+    background: rgb(89, 13, 70);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 35px; font-weight: 600; color: aliceblue;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+  }
+  
+  .video-container > video {
+    /* flex: 1; */
+    width: 70%;
+
+  }
