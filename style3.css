@@ -1,0 +1,98 @@
+
+*{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: rgb(217, 198, 216);
+}
+
+.navbar{
+  background: rgb(89, 13, 70);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a{
+  font-size: 35px; font-weight: 600; color: aliceblue;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+  /* flex-wrap: wrap; */
+}
+
+.video-container > video {
+  /* flex: 1; */
+  width: 70%;
+
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+
+section{
+  min-height: 100vh;
+  background-image: url("https://media.istockphoto.com/id/1391884768/vector/alternative-band-musicians-concert-with-crowd-silhouettes.jpg?s=612x612&w=0&k=20&c=vzy4deVEqBKVAGXuo5H_Bl2h9khJTq_dO2vNl_uFGCQ=");
+}
+
+.article{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  transform: translateY(25vh);
+}
+
+.article h1{
+  font-size: 36px;
+  color: rgb(245, 245, 245);
+  letter-spacing: 1.5px;
+  font-weight: 800px;
+  margin-bottom: 25px;
+}
+
+.article p{
+  font-size: 18px;
+  color: #fcfafa;
+  line-height: 1.5px;
+  margin-bottom: 50px;
+}
+
+.article .button1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 12px 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgb(97, 187, 222);
+}
