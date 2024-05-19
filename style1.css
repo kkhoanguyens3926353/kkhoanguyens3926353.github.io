@@ -1,4 +1,5 @@
- *{
+/* this is the style sheet for tour.html */
+*{
     text-decoration: none;
 
     margin: 0px;
@@ -37,13 +38,15 @@ li a{
     font-weight: bold;
     margin-right: 25px;
 }
+/* card container style with flexbox layout */
 .card-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
   }
-
+/* individual card style so that it will appear as
+round corner boxes */
   .card{
     width: 325px;
     background-color: #f0f0f0;
@@ -52,21 +55,21 @@ li a{
     box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
     margin: 2px;
   }
-
+/* card image style */
   .card img{
     width: 100%;
     height: auto;
   }
-
+/* padding for card content */
   .card-content{
     padding: 16px;
   }
-
+/* card header style */
   .card-content h3{
     font-size: 28px;
     margin-bottom: 8px;
   }
-
+/* card paragraph style */
   .card-content p{
     color: #666;
     font-size: 15px;

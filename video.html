@@ -30,8 +30,13 @@
     <p>
         More Songs and Album coming this summer
     </p>
+    <!-- In here a create an outer class to store all the information 
+    about the video, including the video and the video buttons -->
     <div class="outer">
+      <!-- a section created for the class to store my video -->
         <section class="video-container">
+          <!-- an id and source was create to store the video from
+          the URL I paste in from the given source -->
           <video id="my-video" controls>
             <source
               src="https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/miac.mp4"
@@ -40,11 +45,17 @@
             Your browser does not support the video tag.
           </video>
           <section class="video-title">
+            <!-- I created a video title so that user can tell what song they
+            listening to right now -->
             <h1>Now Playing: <span id="video-name">MIAC.MP4</span></h1>
 
           </section>
-    <section class="video-control">
-        <button id="play-pause-button">
+          <!-- another section created to store all of the control button
+          including play, pause, mute and unmute -->
+         <section class="video-control">
+          <!-- i created a button that user can click on interact -->
+         <button id="play-pause-button">
+            <!-- create a place to display the img of the play button -->
             <img
             id="play-pause-img"
             src="https://img.icons8.com/ios-glyphs/30/play--v1.png"
@@ -53,6 +64,7 @@
             height="24"
           />
         </button>
+        <!-- i repeate the same function for the mute and unmute button -->
     </button>
     <button id="mute-unmute-button">
       <img
@@ -63,25 +75,9 @@
         height="24"
       />
     </button>
-<!-- </button>
-<button id="decrease-volume-button">
-  <img
-    id="decrease-volume-img"
-    src="https://img.icons8.com/ios-glyphs/30/low-volume.png"
-    alt="Decrease volume Button"
-    width="24"
-    height="24"
-  />
-</button>
-<button id="increase-volume-button">
-  <img
-    id="increase-volume-img"
-    src="https://img.icons8.com/ios-glyphs/30/high-volume--v1.png"
-    alt="Increase volume Button"
-    width="24"
-    height="24"
-  />
-</button> -->
     </section>
 </body>
 </html>
+
+<!-- on this page I have a different stylesheet to store the essential 
+information about the video so that it wont affects with other page -->
